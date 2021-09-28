@@ -11,7 +11,8 @@
     "@babel/core": "^7.15.5",
     "@babel/node": "^7.15.4",
     "@babel/preset-env": "^7.15.6",
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.0.0"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"

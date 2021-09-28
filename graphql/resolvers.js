@@ -1,6 +1,7 @@
+import { getMovies, getById, addMovie, deleteMovie } from "./db"
 const resolvers = {
 	Query: {
-		name:() => "jayoo"
+		movies: () => getMovies()
 	}
 };
 
